@@ -4,8 +4,8 @@ defmodule ChangedReloader.MixProject do
   def project do
     [
       app: :changed_reloader,
-      version: "0.1.4",
-      elixir: "~> 1.6",
+      version: "1.0.0",
+      elixir: "~> 1.18",
       start_permanent: Mix.env() == :prod,
       description: description(),
       deps: deps(),
